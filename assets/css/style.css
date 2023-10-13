@@ -1,0 +1,44 @@
+* {
+    margin: 0
+}
+
+.main {
+    border-style: solid;
+    width: 500px;
+    height: 200px;
+    color: black;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(242, 239, 239);
+
+
+
+}
+
+section {
+    background-color: rgb(242, 239, 239);
+}
+
+.titulo {}
+
+.titulo.h2 {
+    padding-bottom: 20px;
+}
+
+.barra {
+    padding-top: 10px;
+
+}
+
+.textarea {
+    width: 400px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: grey;
+    width: 80px;
+    color: white;
+}
