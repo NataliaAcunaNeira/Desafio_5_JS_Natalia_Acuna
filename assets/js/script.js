@@ -1,3 +1,6 @@
+
+
+
 //Ejercicio 2.2
 
 function pintar(elemento) {

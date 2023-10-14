@@ -5,7 +5,7 @@
 .main {
     border-style: solid;
     width: 500px;
-    height: 200px;
+    height: 150px;
     color: black;
     margin-left: 10px;
     padding-left: 10px;
@@ -20,11 +20,7 @@ section {
     background-color: rgb(242, 239, 239);
 }
 
-.titulo {}
 
-.titulo.h2 {
-    padding-bottom: 20px;
-}
 
 .barra {
     padding-top: 10px;
@@ -41,4 +37,11 @@ button {
     background-color: grey;
     width: 80px;
     color: white;
+}
+
+.final {
+    display: grid;
+    grid-template-areas: "conteo id tareas";
+    grid-template-columns: 30% 20% auto;
+
 }
