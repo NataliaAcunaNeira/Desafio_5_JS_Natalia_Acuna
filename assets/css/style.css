@@ -5,7 +5,6 @@
 .main {
     border-style: solid;
     width: 500px;
-    height: 150px;
     color: black;
     margin-left: 10px;
     padding-left: 10px;
@@ -44,4 +43,9 @@ button {
     grid-template-areas: "conteo id tareas";
     grid-template-columns: 30% 20% auto;
 
+}
+
+#tablaTareas {
+    border-style: solid;
+    border: solid 2px black
 }

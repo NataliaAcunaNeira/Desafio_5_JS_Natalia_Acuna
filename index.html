@@ -19,38 +19,30 @@
         </section>
         <section class="barra">
             <h4>Nueva Tarea </h4>
-            <input type="text" class="textarea"></input>
-            <button> Agregar
+            <input id="input" type="text" class="textarea"></input>
+            <button onclick="enClickAgregar()" id="botonAgregar"> Agregar
             </button>
         </section>
         <section class="final">
             <section class="conteo">
-                <h5>Total:</h5>
-                <h5>Realizadas:</h5>
+                <h5>Total: <span id="total"> 0 </span></h5>
+                <h5>Realizadas: <span id="totalListas"> 0 </span></h5>
             </section>
-            <section class="id">
-                <h5>ID</h5>
-            </section>
-            <section class="tareas">
-                <h5>Tarea</h5>
-            </section>
-        </section>
-    </main>
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Tarea</th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>20</th>
-            <th>Estudiar</th>
-            <th><input type="checkbox"></th>
-            <th>X</th>
-        </tr>
+            <section class="tabladetareas">
+                <table id="tablaTareas">
+                    <tr>
+                        <th>ID</th>
+                        <th>Tarea</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
 
-    </table>
+
+                </table>
+            </section>
+
+    </main>
+
 </body>
 
 <script src="./assets/js/script.js"></script>
